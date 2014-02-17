@@ -5,10 +5,14 @@ $header-navbar-default-over :-92px;
 $header-fixed-top:51px;
 
 #hero-image {
-  height:450px;
-  background-image:url('hero.jpg');
-  background-position-y:50%;
+  height:110px;
+  background-color:rgba(0,0,0, .7);
+  background-image:url('green_stripe.png');
+  background-repeat:repeat-x;
+  background-position-y:45%;
   background-position-x:50%;
   text-align:center;
-  margin-top:$header-navbar-default-over;// <--- choose from header options above
+  margin-top:-160px;// <--- choose from header options above
 }
+
+// .navbar ul {margin-top:36px;}
