@@ -1,3 +1,5 @@
+@import 'variables';
+
 // Options for hero image top margin based on header type
 $header-nobg-hero :-72px;
 $header-navbar-default :-21px;
@@ -8,11 +10,28 @@ $header-fixed-top:51px;
   height:110px;
   background-color:rgba(0,0,0, .7);
   background-image:url('green_stripe.png');
+  border:1px solid red !important;
   background-repeat:repeat-x;
   background-position-y:45%;
   background-position-x:50%;
   text-align:center;
   margin-top:-160px;// <--- choose from header options above
 }
+
+.navbar-header button {
+  margin-top:15px;
+}
+
+.nav > li > a {
+  font-family: $font-sans2;
+  font-size:22px;
+  color:#ffffff !important;
+  text-transform: uppercase;
+  &:hover {
+    background-color:rgba(255,255,255,.2);
+  }
+}
+
+
 
 // .navbar ul {margin-top:36px;}

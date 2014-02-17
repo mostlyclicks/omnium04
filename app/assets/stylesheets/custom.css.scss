@@ -1,7 +1,4 @@
-$font-sans: helvetica neue,helvetica, arial, sans-serif;
-$gray: #3f423b;
-$sky: #7f9da7;
-$white: #ffffff;
+@import 'variables';
 
 
 body {
@@ -19,9 +16,10 @@ body {
   font-size:5em;
 }
 
-.navbar-header button {
-  margin-top:15px;
-}
+
+
+
+
 
 // p {
 //   font-family:$font-sans;
