@@ -10,7 +10,6 @@ $header-fixed-top:51px;
   height:110px;
   background-color:rgba(0,0,0, .7);
   background-image:url('green_stripe.png');
-  border:1px solid red !important;
   background-repeat:repeat-x;
   background-position-y:45%;
   background-position-x:50%;
@@ -29,6 +28,23 @@ $header-fixed-top:51px;
   text-transform: uppercase;
   &:hover {
     background-color:rgba(255,255,255,.2);
+  }
+}
+
+#video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
   }
 }
 

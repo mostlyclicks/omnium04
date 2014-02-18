@@ -6,6 +6,12 @@ body {
 
 }
 
+h1, h2, h3 {
+  font-family:$font-sans2;
+}
+
+.rline {border:1px solid red;}
+
 
 
 #logo {
@@ -14,6 +20,23 @@ body {
   font-weight:100;
   color:#ffffff;
   font-size:5em;
+}
+
+#top {
+  min-height:350px;
+  background-color:black;
+  padding:20px 0;
+  text-align:center;
+  img {
+    padding-top:20px;
+    margin:100px auto 0 auto;
+  }
+  h1 {
+    font-size:30px;
+    color:$white;
+  }
+
+
 }
 
 

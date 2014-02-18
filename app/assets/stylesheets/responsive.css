@@ -18,6 +18,9 @@
     padding:14px;
   }
   #hero-image {background-position-y:34%;}
+  #top h1 {font-size:30px;text-align:center;line-height:50px;}
+  #top img {padding-bottom:20px;margin:0 auto;}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -36,6 +39,8 @@
     padding:14px;
   }
   #hero-image {background-position-y:40%;}
+  #top h1 {font-size:30px;line-height:106px;text-align:center !important;}
+  #top img {padding-bottom:20px;}
  }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -49,5 +54,8 @@
  }
 
  .navbar ul {margin-top:35px;}
+
+ #top h1 {font-size:46px;line-height:76px;}
+ #top img {padding-top:0px;padding-bottom:20px;}
 
 }
