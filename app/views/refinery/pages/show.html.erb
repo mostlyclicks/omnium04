@@ -2,14 +2,16 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-12 col-xs-12"  id='logo'>
-          <%= image_tag 'logo.png', class: 'img-responsive' %>
+          <%= image_tag 'lax_om_logo.png', class: 'img-responsive' %>
         </div>
         <div class="col-md-8 col-sm-12 col-xs-12">
-          <%= raw @page.content_for(:date) %>
+          <h1>May 2 - 4, 2014 | La Crosse, WI</h1>
+          <%#= raw @page.content_for(:date) %>
         </div>
     </div>
     <div class="row">
       <div class="col-md-12" id="">
+        <%= image_tag 'tj2.jpg', class: 'img-responsive' %>
         <%#= raw @page.content_for(:video_embed_code) %>
       </div>
       
@@ -17,5 +19,19 @@
   </div>
 </div>
 
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- <h1>Title</h1> -->
+        <%= raw @page.content_for(:body) %>
+      </div>
+    </div>
+  </div>
+</div>
 
-<%= render '/refinery/content_page' %>
+<%= render 'refinery/shared/jersey' %>
+<%= render 'refinery/shared/sponsors' %>
+
+
+<%#= render '/refinery/content_page' %>

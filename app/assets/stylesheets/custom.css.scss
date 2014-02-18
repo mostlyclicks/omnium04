@@ -33,6 +33,13 @@ h1, h2, h3 {
     color:$white;
   }
 }
+#top-l2 {
+  h1 {
+    font-size:30px;
+    color:black;
+    text-align:center;
+  }
+}
 
 #logo {
   img {
@@ -56,6 +63,10 @@ h1, h2, h3 {
     font-size:40px;
     text-shadow:1px 1px 1px rgba(255,255,255, .5);
   }
+}
+
+#content {
+  padding-bottom:40px;
 }
 
 #jersey {
