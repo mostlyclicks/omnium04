@@ -1,39 +1,14 @@
 <div id="footer">
   <div class="container">
-    <div class="col-md-3 col-xs-6">
-        <ul>
-          <li>About us</li>
-          <li>Company info</li>
-          <li>Work here</li>
-          <li>Baked goods</li>
-        </ul>
-      </div>
-      <div class="col-md-3 col-xs-6">
-        <ul>
-          <li>About us</li>
-          <li>Company info</li>
-          <li>Work here</li>
-          <li>Baked goods</li>
-        </ul>
-      </div>
-      <div class="col-md-3 col-xs-6">
-        <ul>
-          <li>About us</li>
-          <li>Company info</li>
-          <li>Work here</li>
-          <li>Baked goods</li>
-        </ul>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco</p>
-        <i class="fa fa-facebook"></i> Facebook
-        <p>
-          <%= t('.copyright', :year => Time.now.year,
+    
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <%= t('.copyright', :year => Time.now.year,
                       :site_name => Refinery::Core.site_name) %>
-        </p>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 text-center social">
+        <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a href="http://www.twitter.com"><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a href="http://www.youtube.com"><i class="fa fa-youtube-square fa-3x"></i></a>
       </div>
 
 

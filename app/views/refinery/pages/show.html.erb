@@ -1,1 +1,21 @@
+<div id="top-l2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 col-xs-12"  id='logo'>
+          <%= image_tag 'logo.png', class: 'img-responsive' %>
+        </div>
+        <div class="col-md-8 col-sm-12 col-xs-12">
+          <%= raw @page.content_for(:date) %>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" id="">
+        <%#= raw @page.content_for(:video_embed_code) %>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
 <%= render '/refinery/content_page' %>

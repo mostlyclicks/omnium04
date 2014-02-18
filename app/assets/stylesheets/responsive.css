@@ -2,60 +2,77 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {   
    body {
-    border:4px solid blue !important;
+    border:4px solid green;
+  }
+
+  .social {
+    padding-top:0;
   }
   .navbar-brand div img {
-   margin-top: -13px;
-   padding-bottom:14px;
- }
-   .navbar ul {
-    margin-top:5px;
+    margin-top: -13px;
+    padding-bottom:14px;
+  }
+  .navbar ul {
+     margin-top:10px;
   }
   .navbar ul > li > a {
     padding:14px;
   }
-  #hero-image {background-position-y:34%;}
-  #top h1 {font-size:30px;text-align:center;line-height:50px;}
-  #top img {padding-bottom:20px;margin:0 auto;}
+  #logo img {
+    margin:0px auto 0 auto;
+  }
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   body {
-    border:4px solid red !important;
+    border:4px solid red;
   }
-  .navbar-brand div img {
-   margin-top: -14px;
-   padding-bottom:12px !important;
+  .social {
+    padding-bottom:40px;
   }
+
   .navbar ul {
-    margin-top:15px;
+     margin-top:20px;
   }
-  .navbar ul > li > a {
-    padding:14px;
+
+  #logo img {
+    padding-top:0;
+    margin:0px auto 20px auto;
   }
-  #hero-image {background-position-y:40%;}
-  #top h1 {font-size:30px;line-height:106px;text-align:center !important;}
-  #top img {padding-bottom:20px;}
- }
+  #top h1 {
+    font-size:35px;
+    line-height:80px;
+  }
+
+  #jersey h2 {
+    font-size:32px;
+  }
+
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
    body {
-    border:4px solid blue !important;
+    border:4px solid blue;
   }
-  .navbar-brand div img {
-     margin-top: -14px;
-     padding-bottom:12px;
- }
 
- .navbar ul {margin-top:35px;}
+  .navbar ul {
+     margin-top:40px;
+  }
 
- #top h1 {font-size:46px;line-height:76px;}
- #top img {padding-top:0px;padding-bottom:20px;}
+    #jersey h2 {
+    font-size:40px;
+  }
+
+  #jersey img {
+    margin-top:-20px;
+  }
+
 
 }
