@@ -34,6 +34,11 @@ Virq10Work::Application.configure do
   # Do not compress assets
   config.assets.compress = false
 
+  config.s3_backend = true
+  config.s3_access_key_id = ENV['S3_KEY']
+  config.s3_secret_access_key = ENV['S3_SECRET']
+  config.s3_bucket_name = 'omnium'
+
   # Expands the lines which load the assets
   config.assets.debug = false
 end
