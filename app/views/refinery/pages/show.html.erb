@@ -25,6 +25,9 @@
       <div class="col-md-4">
         <!-- <h1>Title</h1> -->
         <%= raw @page.content_for(:body) %>
+        <div class="l2-register">
+          <%= render 'refinery/shared/register' %>
+        </div>
       </div>
       <div class="col-md-8">
         <%= raw @page.content_for(:table) %>
