@@ -5,9 +5,9 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {   
-   body {
+/*   body {
     border:4px solid green;
-  }
+  }*/
 
   .social {
     padding-top:0;
@@ -30,9 +30,9 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  body {
+/*  body {
     border:4px solid red;
-  }
+  }*/
   .social {
     padding-bottom:40px;
   }
@@ -64,9 +64,9 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-   body {
+/*   body {
     border:4px solid blue;
-  }
+  }*/
 
   .navbar ul {
      margin-top:40px;
