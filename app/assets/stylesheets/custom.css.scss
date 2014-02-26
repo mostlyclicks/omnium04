@@ -90,6 +90,14 @@ h1, h2, h3 {
 
 }
 
+.l2-points {
+  margin-top:20px;
+  color:lighten($gray, 40%);
+
+  p {font-size:12px !important;}
+
+}
+
 #jersey {
   min-height:300px;
   background-image:url('texture2.jpg');
