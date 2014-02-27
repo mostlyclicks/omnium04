@@ -72,6 +72,10 @@
     text-align:right;
   }
 
+  #top-l2 h1 {
+    text-align:right;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -84,7 +88,9 @@
      margin-top:40px;
   }
 
-    #jersey h2 {
+
+
+  #jersey h2 {
     font-size:40px;
   }
 
@@ -98,6 +104,10 @@
     margin-left:10px;
     float:left;
   }
+
+
+
+
 
 
 
