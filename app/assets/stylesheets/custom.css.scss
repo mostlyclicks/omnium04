@@ -46,6 +46,18 @@ h1, h2, h3 {
   margin-top:20px;
 }
 
+#utility {
+  background-color:darken($gray, 5%);
+  margin-top:20px;
+  border-radius:8px;
+  border:3px solid lighten($gray, 1%);
+}
+
+.alert-info {
+  margin-top:20px;font-size:15px;
+  box-shadow:1px 1px 5px 4px darken($gray, 8%);
+}
+
 #logo {
 
   img {

@@ -15,11 +15,12 @@
         <%= raw @page.content_for(:video_embed_code) %>
       </div>
     </div>
-    <div class="row">
+
+    <div class="row" id="utility">
       <div class="col-md-8">
-        <div class="alert alert-info text-left" style="margin-top:20px;font-size:15px;">
+        <div class="alert alert-info text-left" id="alert">
           <div class="row">
-          <div class="col-md-1"><i class="fa fa-warning fa-3x"></i></div>
+          <div class="col-md-1 col-xs-12 text-center"><i class="fa fa-warning fa-3x"></i></div>
           <div class="col-md-11"><%= raw @page.content_for(:alert) %></div>
           </div>
         </div>
