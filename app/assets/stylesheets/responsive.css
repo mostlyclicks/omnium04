@@ -24,6 +24,7 @@
   }
   #logo img {
     margin:0px auto 0 auto;
+    padding-top:20px;
   }
 
 }
@@ -60,6 +61,17 @@
 
   }
 
+    #logo img {
+   
+    display:block;
+    margin-left:-12px;
+    float:left;
+  }
+
+    #date h1 {
+    text-align:right;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -79,6 +91,15 @@
   #jersey img {
     margin-top:-20px;
   }
+
+  #logo img {
+    
+    display:block;
+    margin-left:10px;
+    float:left;
+  }
+
+
 
 
 }

@@ -42,16 +42,19 @@ h1, h2, h3 {
 }
 
 #logo {
+
   img {
-    padding-top:20px;
-    margin:100px auto 0 auto;
+    padding-top:120px;
+    margin:0 auto;
+    
   }
 }
 
 
 #events {
   min-height:400px;
-  border:1px solid green;
+  border-top:15px solid darken($hot-blue, 20%);
+  border-bottom:15px solid darken($hot-blue, 20%);
   background-color:$hot-blue;
   padding:20px 0 40px 0;
   img {
@@ -166,58 +169,4 @@ h1, h2, h3 {
 .social {
   padding-top:20px;
 }
-
-
-
-
-
-// p {
-//   font-family:$font-sans;
-//   font-weight:400;
-// }
-
-// #section-1 {
-//   background-color:lighten($sky, 10%);
-//   margin-top:-26px;
-//   min-height:250px;
-//   padding:2em 0 2em 0;
-//   color:#ffffff;
-//   h3 {
-//     font-family:$font-sans;
-//     font-weight:100;
-//     letter-spacing:.80px ;
-//   }
-//   p {
-//     line-height: 1.55em;
-//     font-weight:300;
-//   }
-// }
-
-// #section-2 {
-//   background-image:url('sunrise.jpg');
-//   background-position-y:90%;
-//   background-position-x:50%;
-//   min-height:600px;
-//   background-repeat:no-repeat;
-  
-//   p {
-//     padding:2em 0;
-//     font-family:$font-sans;
-//     font-weight:100;
-//     font-size:3em;
-//     line-height:1.20em;
-//   }
-// }
-
-// #footer {
-//   padding:2em 0;
-//   background-color:#000000;
-//   color:darken($white, 65%);
-//   li {
-//     list-style-type: none;
-//     margin-left:0;
-//   }
-// }
-
-
 
