@@ -18,8 +18,10 @@
     <div class="row">
       <div class="col-md-8">
         <div class="alert alert-info text-left" style="margin-top:20px;font-size:15px;">
-          <p><strong><i class="fa fa-warning 2x"></i> Pre-registration for the Time Trial is mandatory</strong>, and closes on April 29th at midnight central time.</p>
-          <p><i class="fa fa-warning 2x"></i> Day of registration will be available for the Criterium and the Road Race with a late entry fee penalty of $5 per event.</p>
+          <div class="row">
+          <div class="col-md-1"><i class="fa fa-warning fa-3x"></i></div>
+          <div class="col-md-11"><%= raw @page.content_for(:alert) %></div>
+          </div>
         </div>
         
       </div>
@@ -39,12 +41,12 @@
         <%= raw @page.content_for(:tt_txt) %>
       </div>
       <div class="col-md-4">
-        <%= image_tag 'blk-rr.png', class: 'img-responsive' %>
-        <%= raw @page.content_for(:road_txt) %>
-      </div>
-      <div class="col-md-4">
         <%= image_tag 'blk-crit.png', class: 'img-responsive' %>
         <%= raw @page.content_for(:crit_txt) %>
+      </div>
+      <div class="col-md-4">
+        <%= image_tag 'blk-rr.png', class: 'img-responsive' %>
+        <%= raw @page.content_for(:road_txt) %>
       </div>
     </div>
   </div>
