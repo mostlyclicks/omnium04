@@ -14,10 +14,19 @@
       <div class="col-md-12" id="video-container">
         <%= raw @page.content_for(:video_embed_code) %>
       </div>
-      <div class="col-md-12" id="hm-register">
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="alert alert-info text-left" style="margin-top:20px;font-size:15px;">
+          <p><strong><i class="fa fa-warning 2x"></i> Pre-registration for the Time Trial is mandatory</strong>, and closes on April 29th at midnight central time.</p>
+          <p><i class="fa fa-warning 2x"></i> Day of registration will be available for the Criterium and the Road Race with a late entry fee penalty of $5 per event.</p>
+        </div>
+        
+      </div>
+      <div class="col-md-4" id="hm-register">
         <%= render 'refinery/shared/register' %>
       </div>
-      
+
     </div>
   </div>
 </div>
