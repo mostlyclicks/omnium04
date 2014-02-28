@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-12 col-xs-12"  id='logo'>
-          <%= image_tag 'logo.png', class: 'img-responsive' %>
+          <%= link_to (image_tag 'logo.png', class: 'img-responsive'), root_path %>
         </div>
         <div class="col-md-8 col-sm-12 col-xs-12" id="date">
           <%= raw @page.content_for(:date) %>
@@ -38,15 +38,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <%= image_tag 'blk-tt.png', class: 'img-responsive' %>
+        <%= link_to (image_tag 'blk-tt.png', class: 'img-responsive'), '/hill-tt' %>
         <%= raw @page.content_for(:tt_txt) %>
       </div>
       <div class="col-md-4">
-        <%= image_tag 'blk-crit.png', class: 'img-responsive' %>
+        <%= link_to (image_tag 'blk-crit.png', class: 'img-responsive'), '/criterium' %>
         <%= raw @page.content_for(:crit_txt) %>
       </div>
       <div class="col-md-4">
-        <%= image_tag 'blk-rr.png', class: 'img-responsive' %>
+        <%= link_to (image_tag 'blk-rr.png', class: 'img-responsive'), '/road-race' %>
         <%= raw @page.content_for(:road_txt) %>
       </div>
     </div>
