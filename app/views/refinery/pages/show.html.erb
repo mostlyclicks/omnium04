@@ -23,7 +23,7 @@
           
           <ol class="carousel-indicators">
             <% @page.images.each_with_index do |image, index| %>
-            <li data-target="#carousel-example-generic" data-slide-to="index" class="<% if index == 0 %>active<% end %>"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="<%= index %>" class="<% if index == 0 %>active<% end %>"></li>
             <% end %>
           </ol>
 
