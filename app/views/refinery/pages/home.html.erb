@@ -11,11 +11,21 @@
         </div>
     </div>
     <div class="row">
-      <div class="col-md-12" id="video-container">
+
+
+      <div class="col-md-12">
         <%= raw @page.content_for(:video_embed_code) %>
+      </div>
+<!--       <div class="col-md-6" id="video-container">
+        
+      </div> -->
+
+
+
       </div>
     </div>
 
+<div class="container">
     <div class="row" id="utility">
       <div class="col-md-8">
         <div class="alert alert-info text-left" id="alert">
@@ -30,6 +40,8 @@
         <%= render 'refinery/shared/register' %>
       </div>
     </div>
+  </div>
+
 
   </div>
 </div>

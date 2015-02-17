@@ -1,0 +1,43 @@
+
+      <div class="col-md-6 col-md-offset-3 text-center" >
+
+
+        <div id="carousel-main" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <% if @omnium_pics.present? %>
+          <ol class="carousel-indicators hidden-xs">
+            
+            <% @omnium_pics.each_with_index do |image, index| %>
+              <li data-target="#carousel-main" data-slide-to="<%= index %>" class="<% if index == 0 %>active<% end %>"></li>
+            <% end %>
+            
+          </ol>
+          <% end %>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <% if @omnium_pics.present? %>
+            <% @omnium_pics.each_with_index do |image, index| %>
+              <div class="item <% if index == 0 %>active<% end %>">
+                <%= image_tag image.images.standard_resolution.url %>
+               <!--<div class="carousel-caption">
+                 ...
+                </div> -->
+              </div>
+            <% end %>
+           
+
+
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-main" data-slide="prev">
+            <span class="fa fa-chevron-left" style="position:absolute;top:47%;left:10px;"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-main" data-slide="next">
+            <span class="fa fa-chevron-right" style="position:absolute;top:47%;right:10px;"></span>
+          </a>
+           <% end %>
+        </div>
+      </div>

@@ -24,8 +24,11 @@ h1, h2, h3 {
 }
 
 #top {
-  min-height:350px;
+  min-height:500px;
   background-color:black;
+  background-image:url('rr3-black.jpg');
+  background-position-x:50%;
+  background-size:cover;
   padding:20px 0;
   text-align:center;
   h1 {
@@ -64,6 +67,12 @@ h1, h2, h3 {
     padding-top:120px;
     margin:0 auto;
     
+  }
+}
+
+#carousel-main {
+  img {
+    margin-left:0px;
   }
 }
 
