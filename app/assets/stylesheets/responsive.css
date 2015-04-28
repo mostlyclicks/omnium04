@@ -27,6 +27,14 @@
     padding-top:20px;
   }
 
+  #jersey {
+    min-height:150px;
+  }
+
+  #jersey img {
+    margin-top:20px;
+  }
+
 
 
 }
@@ -55,6 +63,7 @@
 
   #jersey h2 {
     font-size:32px;
+    margin-top:.25em;
   }
 
   #top-l2 h1 {
@@ -78,6 +87,10 @@
     text-align:right;
   }
 
+  #jersey img {
+    margin-top:40px;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -94,10 +107,11 @@
 
   #jersey h2 {
     font-size:40px;
+    margin-top:.25em;
   }
 
   #jersey img {
-    margin-top:-20px;
+    margin-top:40px;
   }
 
   #logo img {

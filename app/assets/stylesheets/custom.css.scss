@@ -134,17 +134,20 @@ h1, h2, h3 {
 }
 
 #jersey {
-  min-height:300px;
-  background-image:url('texture2.jpg');
+  min-height:250px;
+  padding-bottom:20px;
+  background-color:#000000;
   background-position-x:40%;
+
   h2 {
     font-size:24px;
     font-family:$font-sans;
-    font-weight:200;
+    font-weight:100;
     padding-top:.58em;
+    color:rgba(255,255,255,.5);
   }
   img {
-    margin:20px auto 0 auto;
+     margin:20px auto 0 auto;
 
   }
 }
