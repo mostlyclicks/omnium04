@@ -5,9 +5,17 @@
   <%= link_to 'Register', 'https://www.usacycling.org/register/2016-1137', class: 'btn btn-lg btn-success' %>
 </p>
 
+
+<% if @page.title == 'Home' %>
+ 
+<% else %>
+
 <h2>We need your help!</h2>
-<p>You don't have to race to be part of the La Crosse Omnium. Click on the link below to find out how you can help.</p>
-<a href="http://vols.pt/Dq68Vb" target="_blank"><img src="//www.volunteerspot.com/imgs/icons/signup-btn.png" alt="Click to View Volunteer Opportunities on VolunteerSpot"></a>
+  <p>You don't have to race to be part of the La Crosse Omnium. Click on the link below to find out how you can help.</p>
+  <a href="http://vols.pt/Dq68Vb" target="_blank"><img src="//www.volunteerspot.com/imgs/icons/signup-btn.png" alt="Click to View Volunteer Opportunities on VolunteerSpot"></a>
+ 
+<% end %>
+
 
 <!-- <h2 style="color:#adadad;">Thank you!</h2>
 <p style="color:#adadad;padding:0px 20px;">Thank you to all riders, volunteers, officials and fans for a great 2015 La Crosse Omnium. Check back here and our <a href="https://www.facebook.com/lacrosseomnium">Facebook page</a> for updates for the La Crosse Omnium 2016!</p> -->
